@@ -19,6 +19,7 @@ export const AppHeader = () => {
     setAccessToken(null);
     setEntitlementToken(null);
     setStorefront(null);
+    window.open("https://auth.riotgames.com/logout");
     console.log("logged out");
   };
   return (
